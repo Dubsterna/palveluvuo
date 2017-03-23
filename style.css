@@ -1,0 +1,33 @@
+#a {
+border-style: solid;
+ height: 20px;
+ width: 500px;
+    float:left;
+    padding: 5px;
+    margin: 5px;
+}
+
+#b {
+border-style: solid;
+ height: 20px;
+ width: 500px;
+    float:left;
+    padding: 5px;
+    margin: 5px;
+}
+
+#c {
+border-style: solid;
+ height: 20px;
+ width: 500px;
+    float:left;
+    padding: 5px;
+    margin: 5px;
+}
+
+#s {
+border-style: solid;
+float:left;
+    width: 600px;
+    height: 20px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Algoritmi
+    </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="harkka.js"></script>
+        <script src="jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+        
+        <div id="a"><script type="text/javascript">
+  var merge = [];          
+  function aFunction() {          
+for ( i = 0; i < (Math.random() * 200); i++ ) {
+ var myArraya = ['a'];
+ document.write(myArraya + "\n");
+    //myArraya.toString();
+}
+  }
+</script>
+        </div>
+        <div id="b">
+            <script type="text/javascript">
+ function bFunction() {           
+for ( i = 0; i < (Math.random() * 200); i++ ) {
+ var myArrayb = ['b'];
+ document.write(myArrayb + "\n");
+    //myArrayb.toString();
+}
+ } 
+</script>
+        </div>
+        <div id="c">
+        <script type="text/javascript">
+function cFunction() {          
+for ( i = 0; i < (Math.random() * 200); i++ ) {
+ var myArrayc = ['c'];
+ document.write(myArrayc + "\n");
+//myArrayc.toString();
+}
+}   
+</script>
+        </div>
+        <input type="submit" id="nappi" value="nappi"></input>
+        <div id="s">
+        <script>
+            var nappi = document.getElementById("nappi");
+            
+            nappi.onclick = function() {
+                var af = aFunction();
+                var bf = bFunction();
+                var cf = cFunction();
+                var merge = af.concat(bf, cf);
+            document.getElementById("s").innerHTML = merge;
+               document.write(merge + "\n"); 
+                }
+        </script>
+        </div>
+ 
+        
+    </body>
+</html>
